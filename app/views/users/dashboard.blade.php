@@ -1,0 +1,3 @@
+
+Bienvenido denuevo {{$email}}
+
