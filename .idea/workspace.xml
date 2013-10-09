@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" name="Default" comment="" />
+    <list default="true" id="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
     <ignored path="laravel.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/routes.php" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381265253916" ignored="false" />
-    <file path="/dummy.txt" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381280657518" ignored="false" />
+    <file path="/dummy.txt" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381281651175" ignored="false" />
     <file path="$PROJECT_DIR$/vendor/laravel/framework/phpunit.xml" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381195427819" ignored="false" />
     <file path="/app.php" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381121418231" ignored="false" />
     <file path="/composer.json" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381280619449" ignored="false" />
@@ -20,7 +22,7 @@
     <file path="/create.blade.php" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381265155041" ignored="false" />
     <file path="/AdminController.php" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381280855183" ignored="false" />
     <file path="/dashboard.blade.php" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381275988776" ignored="false" />
-    <file path="/Dummy.txt" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381280218914" ignored="false" />
+    <file path="/Dummy.txt" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381281513701" ignored="false" />
     <file path="/UserEventHandler.php" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381281175052" ignored="false" />
     <file path="/global.php" changelist="6fc2c342-6e9a-43ea-a3bd-b708ff97144d" time="1381280463300" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -125,11 +127,6 @@
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="php artisan config:publish barryvdh/laravel-ide-helper" />
-      <command text="composer.phar update" />
-      <command text="php artisan" />
-      <command text="php artisan" />
-      <command text="php artisan generators" />
       <command text="artisan" />
       <command text="ls" />
       <command text="php artisan" />
@@ -150,7 +147,20 @@
       <command text="php artisan generate:migration create_users_table --fields=&quot;email:string, password:string&quot;" />
       <command text="php artisan migrate --database=&quot;tra&quot; --path=&quot;app/database/migration/tra&quot;" />
       <command text="php composer.phar dump" />
+      <command text="ls" />
+      <command text="git add -A" />
+      <command text="git commit -m 'first commit'" />
+      <command text="git remote add origin git@github.com:pacuna/laravel4-multi-tenancy.git" />
+      <command text="git push -u origin master" />
     </commandsHistory>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
@@ -215,7 +225,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -380,17 +390,17 @@
     <frame x="1431" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13588464" sideWeight="0.66774195" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18247366" sideWeight="0.66774195" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33225808" sideWeight="0.50027734" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33225808" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33225808" sideWeight="0.4997227" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
